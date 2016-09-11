@@ -20,7 +20,7 @@ module.exports = nativeDescription: "français", englishDescription: "French", t
     learn_to_code: "Apprend à programmer:"
     teacher: "Enseignant"
     student: "Étudiant"
-    play_now: "Jouez Maintenant"
+    play_now: "Allons-y!"
     im_a_teacher: "Je suis un enseignant"
     im_a_student: "Je suis un étudiant"
     learn_more: "Pour en savoir plus"
@@ -64,7 +64,7 @@ module.exports = nativeDescription: "français", englishDescription: "French", t
     request_demo: "Demandez une Démonstration"
     setup_a_class: "Mettre en place une classe"
     have_an_account: "Avez-vous un compte?"
-    logged_in_as: "Vous êtes présentement enregistré en tant que"
+    logged_in_as: "Vous êtes présentement enregistré comme"
     view_my_classes: "Voir Mes Classes"
     computer_science: "Des cours d'informatique pour tous âges"
     show_me_lesson_time: "Montrez-moi des estimés de temps de cours pour:"
@@ -110,7 +110,7 @@ module.exports = nativeDescription: "français", englishDescription: "French", t
     legal: "Mentions légales"
     about: "À propos"
     contact: "Contact"
-    twitter_follow: "Suivre"
+    twitter_follow: "Suivre a Twitter"
     students: "Étudiants"
     teachers: "Enseignants"
     careers: "Emplois"
@@ -136,10 +136,10 @@ module.exports = nativeDescription: "français", englishDescription: "French", t
     okay: "Ok"
 
   not_found:
-    page_not_found: "Page non trouvée"
+    page_not_found: "Nous-avons pas trouvée se page-là"
 
   diplomat_suggestion:
-    title: "Aidez à traduire CodeCombat !" # This shows up when a player switches to a non-English language using the language selector.
+    title: "Aidez à traduire CodeCombat!" # This shows up when a player switches to a non-English language using the language selector.
     sub_heading: "Nous avons besoin de vos compétences en langues."
     pitch_body: "Nous développons CodeCombat en anglais, mais nous avons déjà des joueurs de partout dans le monde. Beaucoup d'entre eux veulent jouer en français mais ne parlent pas anglais, donc si vous parlez aussi bien l'anglais que le français, aidez-nous en devenant traducteur et aidez à traduire aussi bien le site que tous les niveaux en français."
     missing_translations: "Jusqu'à ce que nous ayons tout traduit en français, vous verrez de l'anglais quand le français ne sera pas disponible."
@@ -190,9 +190,9 @@ module.exports = nativeDescription: "français", englishDescription: "French", t
     loop: "boucle"
     for: "pour"
     break: "sortir"
-    continue: "continuer"
+    continue: "continue"
     pass: "passer"
-    return: "retour"
+    return: "retourner"
     then: "alors"
     do: "fait"
     end: "fin"
@@ -243,7 +243,7 @@ module.exports = nativeDescription: "français", englishDescription: "French", t
   login:
     sign_up: "Créer un compte"
 #    email_or_username: "Email or username"
-    log_in: "Connexion"
+    log_in: "Retourner"
     logging_in: "Connecter"
     log_out: "Déconnexion"
     forgot_password: "Mot de passe oublié ?"
