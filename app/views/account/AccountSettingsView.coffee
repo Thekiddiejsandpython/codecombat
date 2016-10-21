@@ -60,7 +60,7 @@ module.exports = class AccountSettingsView extends CocoView
     @validateCredentialsForDestruction @$el.find('#delete-account-form'), =>
       renderData =
         title: 'Are you really sure?'
-        body: 'This will completely delete your account. This action CANNOT be undone. Are you entirely sure?'
+        body: 'This will completely DELETE your account. This action CANNOT be undone. Are you ENTIRELY sure?'
         decline: 'Cancel'
         confirm: 'DELETE Your Account'
       confirmModal = new ConfirmModal renderData
@@ -73,7 +73,7 @@ module.exports = class AccountSettingsView extends CocoView
         title: 'Are you really sure?'
         body: 'This will completely erase your progress: code, levels, achievements, earned gems, and course work. This action CANNOT be undone. Are you entirely sure?'
         decline: 'Cancel'
-        confirm: 'Erase ALL Progress'
+        confirm: 'Erase ALL of your Progress'
       confirmModal = new ConfirmModal renderData
       confirmModal.on 'confirm', @resetProgress, @
       @openModalView confirmModal
@@ -129,7 +129,7 @@ module.exports = class AccountSettingsView extends CocoView
       success: ->
         noty
           timeout: 5000
-          text: 'Your account is gone.'
+          text: 'Your account is permanently gone.'
           type: 'success'
           layout: 'topCenter'
         _.delay ->
@@ -142,7 +142,7 @@ module.exports = class AccountSettingsView extends CocoView
         console.error jqXHR
         noty
           timeout: 5000
-          text: "Deleting account failed with error code #{jqXHR.status}"
+          text: "Deleting account failed with error code #{jqXHR.status} - Just in case you might need it!"
           type: 'error'
           layout: 'topCenter'
       url: "/db/user/#{@user.id}"
@@ -163,7 +163,7 @@ module.exports = class AccountSettingsView extends CocoView
         console.error jqXHR
         noty
           timeout: 5000
-          text: "Resetting progress failed with error code #{jqXHR.status}"
+          text: "Resetting progress failed with error code #{jqXHR.status} - Just in case you might need it!"
           type: 'error'
           layout: 'topCenter'
       url: "/db/user/#{@user.id}/reset_progress"
